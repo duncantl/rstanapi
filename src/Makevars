@@ -1,0 +1,6 @@
+MATH=$(HOME)/DSIProjects/Stan/math 
+STAN=$(HOME)/DSIProjects/Stan/stan/src
+EIGEN=$(HOME)/DSIProjects/Stan/Eigen 
+BOOST=/usr/local/include/boost
+
+PKG_CPPFLAGS=-I$(MATH) -I$(STAN) -I$(EIGEN) -I$(BOOST)
