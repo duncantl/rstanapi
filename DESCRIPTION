@@ -1,0 +1,7 @@
+Package: rstanapi
+Version: 0.1-0
+Title: Experimenting with Interfacing to Stan's API
+Description: Same as title
+Author: Duncan Temple Lang
+Maintainer: DTL <duncan@r-project.org>
+License: GPL2

@@ -1,13 +1,5 @@
-#include <Rdefines.h>
-
-#ifdef length
-#undef length
-#endif
-
-
+#include "Rstanwriter.hpp"
 #include <stdlib.h>
-
-#include <stan/callbacks/writer.hpp>
 
 /*
  Other classes:

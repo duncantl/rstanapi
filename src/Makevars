@@ -4,3 +4,4 @@ EIGEN=$(HOME)/DSIProjects/Stan/Eigen
 BOOST=/usr/local/include/boost
 
 PKG_CPPFLAGS=-I$(MATH) -I$(STAN) -I$(EIGEN) -I$(BOOST)
+PKG_LIBS=-L$(STAN)/../bin -lstanc
